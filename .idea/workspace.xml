@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fe5d4ea-80cb-43ea-a645-2813a74b8348" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/List.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Register.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/StudentRow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/getStudentsHook.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/StudentService.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/List.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659307061142</updated>
-      <workItem from="1659307062697" duration="4185000" />
+      <workItem from="1659307062697" duration="8131000" />
     </task>
     <servers />
   </component>
