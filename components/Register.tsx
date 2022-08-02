@@ -1,25 +1,29 @@
 import {StatusBar} from 'expo-status-bar'
-import React, {useState} from 'react'
+import React, {useRef, useState} from 'react'
 import {Alert, ImageBackground, StyleSheet, Text, TouchableOpacity, View} from 'react-native'
 import {Camera, CameraType, requestCameraPermissionsAsync} from 'expo-camera'
-
-let camera: Camera
-
+import * as MediaLibrary from 'expo-media-library';
 
 interface IUser {
     status: boolean;
 }
 
+
+// let camera: Camera
+
 export function Register() {
-    const [startCamera, setStartCamera] = React.useState(false)
+    const [startCamera, setStartCamera] = React.useState(false);
     // const [hasPermission, setHasPermission] = useState<IUser>({status: true});
     const [type, setType] = useState(CameraType.back);
 
-    const [previewVisible, setPreviewVisible] = React.useState(false)
-    const [capturedImage, setCapturedImage] = React.useState<any>(null)
-    const [cameraType, setCameraType] = React.useState(CameraType.back)
-    const [flashMode, setFlashMode] = React.useState('off')
+    const [previewVisible, setPreviewVisible] = React.useState(false);
+    const [capturedImage, setCapturedImage] = React.useState<any>(null);
+    const [cameraType, setCameraType] = React.useState(CameraType.back);
+    const [flashMode, setFlashMode] = React.useState('off');
+    const [image, setImage] = useState(null);
 
+
+    const camRef = useRef(null);
     // const [startCamera, setStartCamera] = React.useState(false)
     // const [previewVisible, setPreviewVisible] = React.useState(false)
     // const [capturedImage, setCapturedImage] = React.useState<any>(null)
@@ -34,17 +38,36 @@ export function Register() {
         } else {
             Alert.alert('Access denied')
         }
-    }
+    };
     const __takePicture = async () => {
-        if (camera._onCameraReady() === true) {
-            const photo: any = await camera.takePictureAsync()
-            console.log(photo)
-            setPreviewVisible(true)
-            setStartCamera(false)
-            setCapturedImage(photo)
+        if (camRef) {
+            try {
+                const photo = await camRef.current.takePictureAsync();
+                setCapturedImage(photo)
+                setPreviewVisible(true)
+            }catch (error){
+                console.log('error')
+            }
         }
-    }
-    const __savePhoto = () => {
+        //
+        //
+        // setPreviewVisible(true)
+        // //setStartCamera(false)
+        // setCapturedImage(photo)
+    };
+
+    // metodo para guardar la imagen si lo hicera :
+    const __savePhoto = async () => {
+        if (image) {
+            try {
+                const asset = await MediaLibrary.createAssetAsync(image);
+                alert('Picture saved! 🎉');
+                setImage(null);
+                console.log('saved successfully');
+            } catch (error) {
+                console.log(error);
+            }
+        }
     }
     const __retakePicture = () => {
         setCapturedImage(null)
@@ -83,9 +106,7 @@ export function Register() {
                             type={cameraType}
                             // flashMode={flashMode}
                             style={{flex: 1}}
-                            ref={(r) => {
-                                // camera = r
-                            }}
+                            ref={camRef}
                         >
                             <View
                                 style={{
