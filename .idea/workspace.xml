@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cee39084-b8d8-47b9-96a9-69549c295b8f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AcademicApp.keystore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SubjectList/List.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SubjectList/OrderBy.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/SubjectList/SearchBar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/RegisterScreen/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/RegisterScreen/CameraComponent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/RegisterScreen/CustomTextInput.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/List.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/StudentRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SubjectList/SubjectCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Register.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/RegisterScreen/Register.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SubjectList/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SubjectScreen/List.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SubjectList/OrderBy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SubjectScreen/OrderBy.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SubjectList/SearchBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SubjectScreen/SearchBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SubjectList/SubjectCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SubjectScreen/SubjectCard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -57,6 +57,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/RegisterScreen" />
       <recent name="$PROJECT_DIR$/components/SubjectList" />
     </key>
   </component>
@@ -71,7 +72,7 @@
       <workItem from="1659392200442" duration="766000" />
       <workItem from="1659395591951" duration="621000" />
       <workItem from="1659396484939" duration="1114000" />
-      <workItem from="1659439928635" duration="6121000" />
+      <workItem from="1659439928635" duration="10755000" />
     </task>
     <servers />
   </component>
