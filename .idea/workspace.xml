@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fe5d4ea-80cb-43ea-a645-2813a74b8348" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/components/StudentRow.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hooks/getStudentsHook.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services/StudentService.tsx" afterDir="false" />
+    <list default="true" id="cee39084-b8d8-47b9-96a9-69549c295b8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AcademicApp.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SubjectList/List.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SubjectList/OrderBy.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SubjectList/SearchBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/List.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/List.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/List.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/StudentRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/SubjectList/SubjectCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,36 +35,43 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2CjDNXhXmSz7KT67cIOJvJFjT1g" />
+  <component name="ProjectId" id="2Clzw3a2BpAezYyrbeqHDRQLUOQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Project.color": "0f612f",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/criis/AcademicApp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "/home/criis/AcademicApp/node_modules/typescript/lib"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;0f612f&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/criis/AcademicApp/node_modules/typescript/lib&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/SubjectList" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5fe5d4ea-80cb-43ea-a645-2813a74b8348" name="Changes" comment="" />
-      <created>1659307061142</created>
+      <changelist id="cee39084-b8d8-47b9-96a9-69549c295b8f" name="Changes" comment="" />
+      <created>1659392198202</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659307061142</updated>
-      <workItem from="1659307062697" duration="8131000" />
+      <updated>1659392198202</updated>
+      <workItem from="1659392200442" duration="766000" />
+      <workItem from="1659395591951" duration="621000" />
+      <workItem from="1659396484939" duration="1114000" />
+      <workItem from="1659439928635" duration="6121000" />
     </task>
     <servers />
   </component>

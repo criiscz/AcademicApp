@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator} from "@react-navigation/bottom-tabs";
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import { List } from './components/List';
+import { List } from './components/SubjectList/List';
 import { Register } from './components/Register';
 
 export default function App() {
